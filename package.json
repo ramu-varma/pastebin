@@ -1,0 +1,21 @@
+{
+  "name": "pastebin-lite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.8.2",
+    "nanoid": "^5.1.6",
+    "nodemon": "^3.1.11"
+  }
+}
